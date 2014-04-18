@@ -1,0 +1,28 @@
+{
+    "name": "apetushok/push-notifications",
+    "description": "PHP mini library Push Notifications to Android and Ios",
+    "keywords": ["php", "push", "notifications", "android", "ios"],
+    "authors": [
+        {
+            "name": "APetushok",
+            "email": "apetusho@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "type": "library",
+    "homepage": "https://github.com/apetushok/push-notifications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "APetushok"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Push": "src/"
+        }
+    }
+}
